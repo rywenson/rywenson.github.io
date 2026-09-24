@@ -62,7 +62,8 @@ article p::first-letter {
 }
 aside {
     width: 20%;
-    float: left;
+    float: right;
     background-color: #ffebc6;
-    
+    padding: 1em;
+
 }
