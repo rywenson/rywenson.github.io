@@ -60,3 +60,9 @@ article p::first-letter {
     font-style: italic;
     color: lightgreen
 }
+aside {
+    width: 20%;
+    float: left;
+    background-color: #ffebc6;
+    
+}
