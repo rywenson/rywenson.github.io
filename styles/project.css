@@ -78,13 +78,14 @@ footer {
 }
 p.fixed {
     position: fixed;
-    right: 8%;
-    bottom: 50%;
+    right: 5%;
+    bottom: 52%;
     width: auto;
     padding: 1.5em;
     background-color: lightgreen;
     border: 3px solid green;
 }
+
 
 
 
