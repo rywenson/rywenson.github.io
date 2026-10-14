@@ -35,6 +35,11 @@ header img {
     float: left;
     margin-left: 2em;
 }
+{
+header
+ clear: both;
+ border-top: 2px solid maroon;
+}
 .shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
