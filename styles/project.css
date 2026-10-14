@@ -65,9 +65,17 @@ aside {
     float: right;
     background-color: #ffebc6;
     padding: 1em;
-
 }
 footer {
     clear: both;
     border-top: 2px solid maroon;
+}
+p.fixed {
+    position: fixed;
+    right: 0;
+    bottom: 15%;
+    width: auto;
+    padding: 1.5em;
+    background-color: lightgreen;
+    border: 3px solid green;
 }
