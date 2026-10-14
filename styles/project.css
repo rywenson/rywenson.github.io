@@ -36,7 +36,7 @@ header img {
     margin-left: 2em;
 }
 header {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid maroon;
     padding-bottom: 1em;
     display: flow-root;
 }
