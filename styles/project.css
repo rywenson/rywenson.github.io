@@ -38,6 +38,10 @@ header img {
 .shadow {
     text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
+header {
+    border-bottom: 1px solid red;
+}
+
 article {
     clear: left;
     width: 70%;
