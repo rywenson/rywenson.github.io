@@ -1,15 +1,13 @@
-nav {
-    background-color: darkgreen;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-}
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 30px;
-    display: inline-block;
-}
-nav a:hover {
-    color: yellow;
-}
+#nav_menu ul { list-style-type: none; }
+#nav_menu ul li { float: left; }
+#nav_menu ul li a {
+text-align: center;
+display: block;
+width: 175px;
+padding: 1em 0; /* padding above and below a
+elements */
+text-decoration: none;
+background-color: green;
+color: white;
+font-weight: bold;
+border-right: 2px solid white; }
