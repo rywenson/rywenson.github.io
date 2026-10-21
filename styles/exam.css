@@ -1,0 +1,15 @@
+nav {
+    background-color: darkgreen;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+}
+nav a:hover {
+    color: yellow;
+}
