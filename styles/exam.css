@@ -15,9 +15,6 @@ border-right: 2px solid white; }
 
 header {
     border-bottom: 3px solid green;
-    padding-bottom: 1em;
-    display: flow-root;
-
 }
 
 article h1 {
