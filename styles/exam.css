@@ -1,3 +1,20 @@
+html {
+    background-image: linear-gradient(to left, white 0%, #facd8a 100%);
+}
+body {
+    width: 90%;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+    background: url("/images/shsu.jpg") right repeat-y;
+    background-attachment: fixed;
+    background-color: white;
+} 
 #nav_menu ul { list-style-type: none; }
 #nav_menu ul li { float: left; }
 #nav_menu ul li a {
