@@ -60,34 +60,5 @@ aside ul {
     list-style-type: square;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #e9a044;
-    background-image: url("images/shsu.jpg");
-    background-repeat: repeat;
-    background-attachment: fixed;
-}
-
-main {
-    background-color: white;
-    margin: 20px;
-    padding: 20px;
-    overflow: hidden;
-}
-
-section {
-    margin-bottom: 25px;
-}
-
-section h2 {
-    border-bottom: 2px solid darkgreen;
-    padding-bottom: 5px;
-}
-
-section p {
-    line-height: 1.5;
-}
 
 
