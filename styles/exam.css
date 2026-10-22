@@ -69,25 +69,15 @@ aside {
     width: 18%;
     padding: 15px;
     background-color: lightgreen;
-    border: 2px solid green
-    position: fixed;
+    border: 2px solid green;
     right: 2px;
     top: 200px;
     box-sizing: border-box;
-}
-aside h2 {
-    color: darkgreen;
-}
-aside ol {
-    padding-left: 25px;
+    position: fixed; 
 }
 aside a {
     color: purple;
 }
-aside a:hover {
-    color: red;
-}
-
 footer {
     clear: both;
     text-align: center;
