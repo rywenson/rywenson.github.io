@@ -29,3 +29,26 @@ font-weight: bold;
 border-right: 2px solid white; }
 #nav_menu ul li a.lastitem { border-right: none; }
 #nav_menu ul li a.current { color: yellow; } 
+
+header {
+    border-bottom: 1px solid maroon;
+    padding-bottom: 1em;
+    display: flow-root;
+}
+article {
+    clear: left;
+    width: 70%;
+    float: left;
+    column-count: 3;
+    column-rule: 2px dotted darkgreen;
+    column-gap: 2em;
+    margin-left: 2em;
+}
+article h3 {
+    column-span: all;
+}
+article img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
