@@ -13,21 +13,47 @@ border-right: 2px solid white; }
 #nav_menu ul li a.lastitem { border-right: none; }
 #nav_menu ul li a.current { color: yellow; } 
 
+
 article h1 {
     clear: left;
     color: darkgreen;
 }
-article img {
+
+#columns {
+    width: 78%;
     float: left;
-    margin-right: 1em;
-    margin-bottom: 1em;
 }
-article p::first-letter {
-    font-size: 3em;
-    font-weight: bold;
-    font-style: italic;
-    color: purple
+
+.column {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
 }
+
+.column h2 {
+    color: darkgreen;
+}
+
+aside {
+    width: 20%;
+    float: right;
+    background-color: lightgreen;
+    padding: 10px;
+    box-sizing: border-box;
+    position: fixed;
+    right: 10px;
+    top: 120px;
+}
+
+aside a {
+    color: darkgreen;
+}
+
+aside a:hover {
+    color: red;
+}
+
 aside ol {
     list-style-type: upper-roman;
 }
