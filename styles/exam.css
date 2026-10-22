@@ -17,7 +17,11 @@ article h1 {
     clear: left;
     color: darkgreen;
 }
-
+article img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
 aside ol {
     list-style-type: upper-roman;
 }
