@@ -55,6 +55,6 @@ article img {
 article p::first-letter {
     font-size: 3em;
     font-weight: bold;
-    font-style: oblique;
+    font-style: italic;
     color: purple
 }
