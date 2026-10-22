@@ -24,3 +24,9 @@ aside ul {
     list-style-type: square;
 }
 
+h1 {
+    color: darkgreen;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
