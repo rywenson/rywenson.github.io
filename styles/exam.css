@@ -40,7 +40,7 @@ article {
     width: 70%;
     float: left;
     column-count: 3;
-    column-rule: 5px dotted darkgreen;
+    column-rule: 10px dotted darkgreen;
     column-gap: 2em;
     margin-left: 2em;
 }
