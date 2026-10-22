@@ -62,6 +62,10 @@ aside ol {
 aside ul {
     list-style-type: square;
 }
-
+footer {
+    clear: both;
+    text-align: center;
+    padding: 1em;
+}
 
 
