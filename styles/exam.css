@@ -12,6 +12,12 @@ font-weight: bold;
 border-right: 2px solid white; }
 #nav_menu ul li a.lastitem { border-right: none; }
 #nav_menu ul li a.current { color: yellow; } 
+
+h1 {
+    border-bottom: 3px solid green;
+    padding-bottom: 10px;
+}
+
 article h1 {
     clear: left;
     color: darkgreen;
@@ -25,7 +31,9 @@ article img {
     width: 78%;
     float: left;
 }
-
+.column {
+    border-right: 2px dotted green;
+}
 .column {
     width: 33.33%;
     float: left;
@@ -63,8 +71,10 @@ aside ul {
     list-style-type: square;
 }
 footer {
-    border-top: 2px solid dark green;
+    clear: both;
+    border-top: 3px solid green;
     text-align: center;
+    padding: 1em;
 }
 
 
