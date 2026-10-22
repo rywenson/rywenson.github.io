@@ -1,110 +1,32 @@
+html {
+    background-image: linear-gradient(to left, white 0%, #facd8a 100%);
+}
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.5;
+    width: 90%;
     background-color: white;
-}
-
-header {
-    border-top: 4px solid green;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+    background: url("/images/shsu.jpg") right repeat-y;
+    background-attachment: fixed;
+    background-color: white;
+} 
 #nav_menu ul { list-style-type: none; }
 #nav_menu ul li { float: left; }
 #nav_menu ul li a {
 text-align: center;
 display: block;
 width: 175px;
-padding: 1em 0;
+padding: 1em 0; /* padding above and below a
+elements */
 text-decoration: none;
-background-color: darkgreen;
+background-color: blue;
 color: white;
 font-weight: bold;
 border-right: 2px solid white; }
 #nav_menu ul li a.lastitem { border-right: none; }
 #nav_menu ul li a.current { color: yellow; } 
-header h1 {
-    color: darkgreen;
-    padding: 15px;
-    margin: 0;
-}
-
-main {
-    padding: 10px;
-}
-
-article {
-    width: 78%;
-    float: left;
-}
-
-#columns {
-    width: 100%;
-    overflow: hidden;
-}
-
-.column {
-    width: 33.33%;
-    float: left;
-    box-sizing: border-box;
-    padding: 10px;
-    border-right: 2px dotted green;
-}
-
-.column:last-child {
-    border-right: none;
-}
-
-.column h2 {
-    color: darkgreen;
-}
-
-.column p {
-    margin-top: 5px;
-}
-
-.column img {
-    max-width: 100%;
-    height: auto;
-    float: left;
-    margin: 0 10px 10px 0;
-}
-
-aside {
-    width: 18%;
-    float: right;
-    box-sizing: border-box;
-    padding: 15px;
-    background-color: lightgreen;
-    position: fixed;
-    right: 10px;
-    top: 120px;
-}
-
-aside h2 {
-    color: darkgreen;
-}
-
-aside ol {
-    padding-left: 25px;
-}
-
-aside a {
-    color: darkgreen;
-}
-
-aside a:hover {
-    color: red;
-}
-
-video {
-    max-width: 100%;
-}
-
-footer {
-    clear: both;
-    border-top: 4px solid green;
-    text-align: center;
-    padding: 1em;
-    margin-top: 20px;
-}
