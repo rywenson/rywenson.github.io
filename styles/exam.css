@@ -16,7 +16,11 @@ article h1 {
     clear: left;
     color: darkgreen;
 }
-
+article img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
 #columns {
     width: 78%;
     float: left;
