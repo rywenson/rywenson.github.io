@@ -15,6 +15,7 @@ border-right: 2px solid white; }
 
 article h1 {
     clear: left;
+    color: darkgreen;
 }
 
 aside ol {
@@ -24,9 +25,4 @@ aside ul {
     list-style-type: square;
 }
 
-h1 {
-    color: darkgreen;
-    font-size: 24px;
-    margin-left: 20px;
-}
 
