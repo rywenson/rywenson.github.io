@@ -69,6 +69,7 @@ aside {
     width: 18%;
     padding: 15px;
     background-color: lightgreen;
+    border: 2px solid green
     position: fixed;
     right: 2px;
     top: 200px;
