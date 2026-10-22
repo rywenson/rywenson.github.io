@@ -31,7 +31,7 @@ border-right: 2px solid white; }
 #nav_menu ul li a.current { color: yellow; } 
 
 header {
-    border-bottom: 1px solid maroon;
+    border-bottom: 3px solid darkgreen;
     padding-bottom: 1em;
     display: flow-root;
 }
