@@ -63,9 +63,8 @@ aside ul {
     list-style-type: square;
 }
 footer {
-    clear: both;
-    text-align: center;
     border-top: 2px solid dark green;
+    text-align: center;
 }
 
 
