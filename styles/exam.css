@@ -81,22 +81,12 @@ aside ol {
     padding-left: 25px;
 }
 aside a {
-    color: darkgreen;
+    color: purple;
 }
 aside a:hover {
     color: red;
 }
-aside > ol {
-    list-style-type: upper-roman;
-}
 
-aside > ul {
-    list-style-type: square;
-}
-
-aside ul ol {
-    list-style-type: lower-alpha;
-}
 footer {
     clear: both;
     text-align: center;
