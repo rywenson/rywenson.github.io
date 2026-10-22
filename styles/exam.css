@@ -70,8 +70,8 @@ aside {
     padding: 15px;
     background-color: lightgreen;
     position: fixed;
-    right: 5px;
-    top: 180px;
+    right: 2px;
+    top: 200px;
     box-sizing: border-box;
 }
 aside h2 {
