@@ -86,7 +86,7 @@ aside a {
 aside a:hover {
     color: red;
 }
-aside > ol {
+aside ol {
     list-style-type: upper-roman;
 }
 
