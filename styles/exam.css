@@ -64,6 +64,8 @@ aside ul {
 }
 footer {
     clear: both;
+    text-align: center;
+    padding: 1em;
     border-top: 2px solid dark green;
 }
 
