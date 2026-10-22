@@ -86,16 +86,19 @@ aside a {
 aside a:hover {
     color: red;
 }
-aside ol {
+
+aside ol.roman {
     list-style-type: upper-roman;
 }
 
-aside ul {
+aside ol.roman > li.square-item {
     list-style-type: square;
 }
-aside ol ol {
+
+aside ol.roman > li.letter-item {
     list-style-type: lower-alpha;
 }
+
 footer {
     clear: both;
     text-align: center;
