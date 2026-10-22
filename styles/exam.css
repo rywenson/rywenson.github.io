@@ -65,9 +65,27 @@ article p::first-letter {
     font-style: italic;
     color: purple;
 }
-
-
-
+aside {
+    width: 18%;
+    padding: 15px;
+    background-color: lightgreen;
+    position: fixed;
+    right: 10px;
+    top: 120px;
+    box-sizing: border-box;
+}
+aside h2 {
+    color: darkgreen;
+}
+aside ol {
+    padding-left: 25px;
+}
+aside a {
+    color: darkgreen;
+}
+aside a:hover {
+    color: red;
+}
 footer {
     clear: both;
     text-align: center;
