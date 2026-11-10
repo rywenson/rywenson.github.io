@@ -49,7 +49,6 @@ table.second thead tr:first-child{
 
 table.third {
     border-collapse: collapse;
-    width: 100%;
 }
 
 table.third th, table.third td {
