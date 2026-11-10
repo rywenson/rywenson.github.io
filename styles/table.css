@@ -44,3 +44,31 @@ table.second th, table.second td {
 table.second thead tr:first-child{      
     border-bottom: 2px solid purple; 
 } 
+
+table.third {
+    border-collapse: collapse;
+    border: 2px solid orangered;
+    caption-side: top;
+}
+
+table.third th, table.third td {
+    padding: 0.7em;
+    border: 2px solid orangered;
+    vertical-align: top;
+}
+
+table.third th {
+    background-color: lightblue;
+}
+
+table.third thead tr:first-child {
+    border-top: 2px solid orangered;
+}
+
+table.third thead tr:last-child {
+    border-bottom: 2px solid orangered;
+}
+
+table.third tbody tr:last-child {
+    border-bottom: 2px solid orangered;
+}
