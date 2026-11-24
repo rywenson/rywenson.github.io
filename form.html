@@ -48,5 +48,51 @@
             autocomplete="on"><br> 
     </fieldset> 
 
+    <fieldset>
+        <legend>Membership Information</legend>
+        <label for="membership_type">Membership Type:</label>
+        <select name="membership_type" id="membership_type">
+            <option value="j">Junior</option>
+            <option value="r">Regular</option>
+            <option value="c">Charter</option>
+        </select><br>
+        <label for="starting_date">Starting Date:</label>
+        <input type="date" name="starting_date" id="starting_date"
+            required><br>
+        <label for="tickets">Tickets for Guests:</label>
+        <input type="number" name="tickets" id="tickets"
+            value="2" min="1" max="4"
+            placeholder="from 1 to 4"><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>How Did You Hear About Us?</legend>
+        <input type="radio" name="hear_about" id="internet"
+            value="internet">
+        <label for="internet">Internet</label><br>
+        <input type="radio" name="hear_about" id="friend"
+            value="friend">
+        <label for="friend">Friend</label><br>
+        <input type="radio" name="hear_about" id="advertisement"
+            value="advertisement">
+        <label for="advertisement">Advertisement</label><br>
+        <input type="radio" name="hear_about" id="other"
+            value="other">
+        <label for="other">Other</label><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Comments</legend>
+        <label for="comments">Comments:</label><br>
+        <textarea name="comments" id="comments"
+            placeholder="Enter any comments here."></textarea><br>
+    </fieldset>
+
+    <fieldset id="buttons">
+        <legend>Submit Your Membership</legend>
+        <label>&nbsp;</label>
+        <input type="submit" id="submit" value="Submit">
+        <input type="reset" id="reset" value="Reset Fields"><br>
+    </fieldset>
 </body>
 </html>
